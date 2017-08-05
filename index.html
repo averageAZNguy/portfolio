@@ -4,10 +4,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Trykker" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/main.css"
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+<!-- <script src="js/jquery.flexslider-min.js"></script> -->
 </head>
 <body>
-  <div class="container-fluid">
+ <div class="content-wrap">
+ 	<div class="content">
+  		<div class="container-fluid">
     <!-- navigation bar -->
   <ul class="nav navbar-right">
     <li> <button class="btn"><a href="#">Home</a></button></li>
@@ -19,30 +26,62 @@
     <li> <button class="btn"><a href="#info-contact">Contact</a></button></li>
    </ul>
   </div>
-  <!-- <div id="home" class="img-big"> -->
-  <div class="text-center">
+  <!-- Main page -->
+  <section id="home">
+    <div class="content-wrapper">
+      <p class="invisible">This is use only to get structure. There is no hidden message here. Move along. This is to just get the background image to cover the entire screen and adjust automatically to different sizes of devices. So to continue. Ipsun due to mordk adh eid jasdkf jblah blabh abweoirendighradhfoifj1 24123 34 kdsjfosdfj This is use only to get structure. There is no hidden message here. Move along. This is to just get the background image to cover the entire screen and adjust automatically to different sizes of devices. So to continue. Ipsun due to mordk adh eid jasdkf jblah blabh abweoirendighradhfoifj1 24123 34 kdsjfosdfj</p>
+  <!-- <div class="text-center"> -->
   	<!-- <div class="img-big"></div> -->
-     <img class="img-big" src="https://s3.us-east-2.amazonaws.com/www.quangthuyhoang.com/images/hero1.jpg" alt="Vietnam" target="_blank">
+     <!-- <img src="https://s3.us-east-2.amazonaws.com/www.quangthuyhoang.com/images/hero1.jpg" alt="Vietnam" target="_blank"> -->
     	<div class="wrapper">
-    <div class="img-div">Changing Culture</div>
+    <div class="img-div">Changing Cultures </div>
       </div>
-  <!-- </div> -->
-</div>
-<div id="info-about" class="jumbotron back-white">
-  <div class="container">
-    <h2 class="text-center">About</h2>
+  </div>
+</section>
+<!-- End of home section -->
+<!-- <div id="info-about" class="jumbotron back-white"> -->
+
+<section id="info-about">
+  <!-- <div class="container"> -->
+    <!-- <h2 class="text-center">About</h2> -->
     <div class="row">
-      <div class="col-md-6 col-sm-12 no-pad">
+      <div class="col-md-6">
       	<!-- <div class="img-profile"></div> -->
         <img class="img-profile" src="https://s3.us-east-2.amazonaws.com/quangthuyhoang.com/images/reza.jpg" alt="img-profile">
       </div>
-      <div class="col-md-6 col-sm-12 col-xs-12">
-    <p>An avid world traveler, Quang understands the changing cultures around the world . He has spent much of his time traversing the diverse countries in Asia and North America. Quang has experience the beautiful natural landscape and the burgeoning pocket cultures as they change.</p></div>
-    </div>
+      <div class="col-md-6">
+        <div class="slider">
+          <img class="img-profile" src="http://media-s3-us-east-1.ceros.com/cleveland-clinic/images/2017/05/16/49746c1ea3506fe9f4d909125a624316/halftone.png" alt="img-profile">
+        <div class="profile-wrapper">
+      
+          <div id="summary" class="about-info">
+        <p class="text-center">An avid world traveler, Quang understands the changing cultures around the world . He has spent much of his time traversing the diverse countries in Asia and North America. Quang has experience the beautiful natural landscape and the burgeoning pocket cultures as they change. </p>
+      </div>
+      <div id="contact-info"class="about-info">
+        <ul>
+          <li>Name: Quang-Thuy Hoang</li>
+          <li>Number: </li>
+          <li>Email: qtnhoang@gmail.com</li>
+          <li>LinkedIn</li>
+          <li>Github:</li>
+        </ul>
+      </div>
+      </div>
+      <div class="row transparent text-center">
+        <div class="col-xs-5"></div>
+         <div class="col-xs-1"><div class="circle" id="0"> </div></div>
+        <div class="col-xs-1"><div class="circle" id="1"> </div></div>
+        <div class="col-xs-5"></div>
+      </div>
       </div>
     </div>
+    </div>
   
-<div id="info-background" class="jumbotron">
+</section>
+  <br>
+  <hr>
+  <br>
+<!-- <div id="info-background" class="jumbotron">
   <div class="container">
     <h2  class="text-center">Background</h2>
     <p>Quang started his travel through Asia but as moved beyond and now includes North and Central America. He hopes to soon travel to Europe and Africa</p>
@@ -59,9 +98,44 @@
     </div>
       </div>
     </div>  
+</div> -->
+<!-- <section id="projects">
+  <div class="flex-container">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>Project 1 
+          <div class="project blur">
+          <img src="assets/Simon.PNG"></div></li>
+        <li>Project 2
+          <div class="project">
+        <img src="assets/PomodoroClock.PNG"></div></li>
+        
+        <li>Project 3
+          <div class="project">
+        <img src="assets/Twitch.PNG"></div></li>
+      </ul>
+  </div>
 </div>
-<div  id="info-projects" class="jumbotron back-white">
-  <div class="container">
+
+</section> -->
+<section id="projects">
+  <h2 class="text-center">Sample Projects</h2>
+<!-- Set up your HTML -->
+<div class="row">
+<div class="container">
+<div class="owl-carousel itemsScaleUp-true owl-theme owl-loaded owl-drag">
+  <div class="item"><a href="https://codepen.io/averageAZNguy/full/ZJYmdr/" target="_blank"><img src="assets/Simon.PNG"></a></div>
+  <div class="item"><a href="https://codepen.io/averageAZNguy/full/ZJYmdr/" target="_blank"><img src="assets/Simon.PNG"></a></div>
+  <div class="item"><a href="https://codepen.io/averageAZNguy/full/ZJYmdr/" target="_blank"><img src="assets/Simon.PNG"></a></div>
+  <div class="item"><a href="https://codepen.io/averageAZNguy/full/ZJYmdr/" target="_blank"><img src="assets/Simon.PNG"></a></div>
+  <div class="item"><a href="https://codepen.io/averageAZNguy/full/ZJYmdr/" target="_blank"><img src="assets/Simon.PNG"></a></div>
+  <div class="item"><a href="https://codepen.io/averageAZNguy/full/ZJYmdr/" target="_blank"><img src="assets/Simon.PNG"></a></div>
+</div>
+</div>
+</div>
+  </section>
+<!-- <div  id="info-projects" class="jumbotron back-white"> -->
+  <!-- <div class="container">
     <h2 class="text-center">Projects</h2>
     <div class="row">
       <div class="col-sm-4">
@@ -104,56 +178,59 @@
       </div>
     </div>
       </div>
-    </div> 
-</div>
-<div id="info-education" class="jumbotron">
-  <div class="container">
+    </div>  -->
+<!-- </div> -->
+<section id="education" class="jumbotron">
+ <!-- <div id="info-education" class="jumbotron"> -->
+  <!-- <div class="container"> -->
+  
     <h2 class="text-center">Education</h2>
-    <div class="row">
-      <div class="col-sm-4">
-    <p>Summary background blah blah blah</p>
-      </div>
-      <div class="col-sm-8">
-        <div class="row">
-          <div class="col-sm">
+<br>
+    <div class="row text-center">
+      <!-- <div class="col-ms-1"></div>
+      <div class="col-md-3">
+    <p></p>
+      </div> -->
+      <!-- <div class="col-md-8"> -->
+        <!-- <div class="row"> -->
+        <div class="card-columns">
+          <!-- <div class="col-md-6 col-sm-6"> -->
         <div class="card-block make-it-slow">
-          <h3>Date Begin/end </h3>
-          <h4 class="card-title">Position/Role</h4>
-          <h4>company name</h4>
-        <p class="card-text">Summary of work. Important projects. Accomplishments</p>
+          <h3>Aug 2007 - May 2012</h3>
+          <h4 class="card-title">Bachelor of Science Chemical Engr</h4>
+          <h4 class="card-sub">The University of Texas at Austin</h4><hr>
+        <p class="card-text">Learned fundamentals of process design, optimization, data analysis, and methodical testing. Applied knowledge with design the technical and business plan for a beer brewery plant.</p>
         </div>
-          </div>
-          <div class="col-sm">
+          <!-- </div> -->
+          <!-- <div class="col-md-6 col-sm-6" > -->
          <div class="card-block make-it-slow">
-          <h3>Date Begin/end </h3>
-          <h4 class="card-title">Position/Role</h4>
-          <h4>company name</h4>
-        <p class="card-text">Summary of work. Important projects. Accomplishments bla bla hb blah blah ba bla hblah blahb lbhalbhab </p>
+          <h3>Apr 2017 - July 2017</h3>
+          <h4 class="card-title">Front End Development Certificiation</h4>
+          <h4 class="card-sub">FreeCodeCamp</h4><hr>
+        <p class="card-text">Studied html, css, javascript, jQuery, and DOM. Practiced simple to advance algorithms and applied them by creating several projects such as this portofolio.</p>
         </div>
-          </div>
-        </div>
-                <div class="row">
-          <div class="col-sm">
+          <!-- </div> -->
+        <!-- </div> -->
+                <!-- <div class="row"> -->
+          <!-- <div class="col-md-6 col-sm-6"> -->
         <div class="card-block make-it-slow">
-          <h3>Date Begin/end </h3>
-          <h4 class="card-title">Position/Role</h4>
-          <h4>company name</h4>
-        <p class="card-text">Summary of work. Important projects. Accomplishments</p>
+          <h3>Apr 2017 - June 2017</h3>
+          <h4 class="card-title">Python</h4>
+          <h4 class="card-sub">Udemy - Complete Python BootCamp</h4><hr>
+        <p class="card-text">Comprehensive bootcamp for practical understanding of python 2 and 3. Finished projects included blackjack, tictactoe, and sudoku solver. See bitbucket link for source code.</p>
         </div>
-          </div>
-          <div class="col-sm">
-         <div class="card-block make-it-slow">
-          <h3>Date Begin/end </h3>
-          <h4 class="card-title">Position/Role</h4>
-          <h4>company name</h4>
-        <p class="card-text">Summary of work. Important projects. Accomplishments bla bla hb blah blah ba bla hblah blahb lbhalbhab </p>
+          <!-- </div> -->
+          <!-- <div class="col-md-6 col-sm-6"> -->
+          <!-- </div> -->
         </div>
-          </div>
-        </div>
+      <!-- </div> -->
+      <!-- <div class="col-*"></div> -->
       </div>
-      </div>
-    </div>  
-</div>
+
+    <!-- </div>   -->
+<!-- </div> -->
+</section>
+<!--
 <div id="info-employment" class="jumbotron back-white">
   <div class="container">
     <h2 class="text-center">Employment</h2>
@@ -203,12 +280,18 @@
   </div>
     </div>  
 </div>
+-->
+<section id="contact">
+<div class="row text-center">
 
-<div id="info-contact" class="row text-center">
-
-    <h2 id="linkedin" class="col-sm-4"><a href="#" target:"_blank">LinkedIn</a></h2>
-  <h2 id="googleplus" class="col-sm-4 vr-sweep-to-bottom"><a href="#" target:"_blank">Google+</a></h2>
-  <h2 id="facebook" class="col-sm-4 facebook"><a href="#" target:"_blank">Facebook</a></h2>
+    <h2 id="linkedin" class="col-sm-4"><a href="#" target:"_blank">LinkedIn <i class="fa fa-linkedin"></i></a></h2>
+  <h2 id="github" class="col-sm-4 vr-sweep-to-bottom"><a href="#" target:"_blank">Github <i class="fa fa-github"></i></a></h2>
+  <h2 id="codepen" class="col-sm-4 facebook"><a href="#" target:"_blank">Codepen <i class="fa fa-codepen"></i></a></h2>
     </div> 
-	</body>
-</html>
+</div>
+</div>
+</section>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+	</body> 
+</html> 

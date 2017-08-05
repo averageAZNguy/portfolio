@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/averageAZNguy/portfolio.git"
+  },
+  "author": "Quang-Thuy Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/averageAZNguy/portfolio/issues"
+  },
+  "homepage": "https://github.com/averageAZNguy/portfolio#readme",
+  "dependencies": {
+    "owl.carousel": "^2.2.0"
+  }
+}

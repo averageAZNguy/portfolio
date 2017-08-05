@@ -1,3 +1,21 @@
+.content-wrapper {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  height:100%;
+  position: absolute;
+}
+.container {
+  /*margin: 0;*/
+ /* padding: 0;*/
+}
+
+.jumbotron {
+  margin-top:0;
+  margin-bottom: 0;
+}
+/*Navigation bar*/
 .nav {
   position: fixed;
   z-index: 1;
@@ -14,43 +32,154 @@
 
 .text-center {
   vertical-align: center;
+  margin: 0 auto;
 }
 .red {
   color: red;
 }
+/*home page*/
+#home {
+    background-image: url(https://s3.us-east-2.amazonaws.com/quangthuyhoang.com/images/hero1.jpg );
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    image-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    left: 0;
+    /*min-width:100%;*/
+    min-height: 600px;
+    height: 100%;
+    /*width: 100%;*/
+    display: block;
+
+}
+
+.row {
+  margin-left:0px;
+  margin-right: 0px;
+}
+
 .img-div {
     position: absolute;
     top: 50%;
     font-size: 50px;
-    width: 300px;
+    width: 400px;
     color: #af8c1c;
     text-shadow: 2px 2px 3px #c1b797;
   border-style:solid;
   background: rgba(0, 0, 0, 0.5);
     padding: 1rem 2rem 1rem 2rem;
 }
-
+.content-wrapper {
+  /*border: 5px solid red;*/
+  display: block;
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  height: 100%;
+  /*width: 1500px;*/
+}
 .wrapper {
   width: 300px;
   margin: auto;
   text-align:center;
   font-family: "Trykker", Helvetica, sans-serif;
 }
-
-.img-big {
-;
-  height: auto;
-  overflow: hidden;
-  width: auto\9; /* ie8 */
-  position: relative;
-  background-size: 100% 100%;
+/* about section */
+.profile-wrapper {
+  /*margin-top: 10%;*/
+  position:absolute;
+  top:0;
+  width: 550px;
+  height: 60%;
+  margin-top: 18%;
+  margin-left: 20%;
+  text-align:center;
+  font-family: "Trykker", Helvetica, sans-serif;
+  font-size: 2em;
+  /*border: 1px solid black;*/
 }
 
+.img-big {
+  background-image:url(https://s3.us-east-2.amazonaws.com/www.quangthuyhoang.com/images/hero1.jpg);
+  height: 100%;
+  overflow: hidden;
+  /*width: 100%;
+  width: auto\9; /* ie8 */
+  position: relative;
+  top: 0:
+  left: 0;
+  /*background-size: 100% 100%;*/
+}
+
+.col {
+  /*border: 5px solid blue;*/
+}
+
+.about-info {
+  /*border: 1px solid grey;*/
+  text-align:left;
+}
+.slider {
+  /*border: 1px solid green;*/
+}
+.circle {
+  border: 1px solid #bfbfbf;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: #bfbfbf;
+}
+.fill {
+  background-color: black;
+  border: 1px solid black;
+}
+.transparent {
+  /*background-color: yellow;*/
+  margin-bottom: 2rem;
+}
 .img-profile {
   height: 100%;
   width: 100%;
+  margin-left: 0px;
+  /*border: 1px solid black;*/
+  /*background-image: url(https://s3.us-east-2.amazonaws.com/quangthuyhoang.com/images/reza.jpg);*/
+}
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+
+#projects {
+  /*background-color: #eaeaea;*/
+  background-size: cover;
+  /*height: 100%;*/
+  width: 100%;
+  /*min-width: 100%;*/
+}
+.owl-carousel {
+  height: 100%;
+  width: 100%;
+  }
+.owl-carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.owl-next {
+    right: 0px;
+}
+/*.owl-nav {
+  background-color: yellow;
 }
 
+.owl-nav .owl-prev {
+  background-color: red;
+}*/
+/* Other Sections */
 .img-icon {
   height: 20rem;
   width: 20rem;
@@ -69,7 +198,38 @@ ul {
 
 .card-block {
   background-color:white;
-  margin-bottom:1rem;  
+  margin-bottom:1rem;
+  margin-right: 5rem;
+  padding: 0.75% 2% 0.75% 2%; 
+  /*padding-left: 5%;*/
+  width: 500px;
+  display:inline-block;
+}
+
+.card-block:hover{
+
+}
+.card-title {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 30px;
+  line-height: 34px;
+  display: inline-block;
+  padding: 1%;
+}
+
+.card-sub {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+hr {
+  /*background-color: dimgrey !important;*/
+    /*color: dimgrey !important;*/
+    border: solid 1px dimgrey;
+    /*height: 5px !important;*/
+    width: 80% !important;
 }
 
 .make-it-slow {
@@ -123,15 +283,15 @@ ul {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
-#googleplus:hover, #googleplus:focus, #googleplus:active {
+#github:hover, #github:focus, #github:active {
   color: white;
 }
-#googleplus:hover:before, #linkedin:focus:before, #googleplus:active:before {
+#github:hover:before, #linkedin:focus:before, #github:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
 
-#googleplus {
+#github {
   background-color:#afafaf;
   padding: 6px;
     display: inline-block;
@@ -148,7 +308,7 @@ ul {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-#facebook {
+#codepen {
   background-color:#8c8a8a;
   text-color:white;
   padding: 6px;
@@ -167,7 +327,7 @@ ul {
   transition-duration: 0.3s;
 }
 
-#facebook:before {
+#codepen:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -188,7 +348,7 @@ ul {
   transition-timing-function: ease-out;
 }
 
-#googleplus:before {
+#github:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -207,15 +367,19 @@ ul {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+  color:white;
 }
+a:link {color: white;}      /* unvisited link */
+       a:visited {color: white;text-decoration: none;}   /* visited link */
+       a:hover {color: white; text-decoration: none;}     /* mouse over link */
+       a:active {color: white;text-decoration: none;}    /* selected link */
 
-
-#facebook A:link {text-decoration: none; color: white}
-#googleplus A:link {text-decoration: none; color: white}
-#linkedin A:link {text-decoration: none; color: white}
-/**#facebook A:link {text-decoration: none; color: #2952c2;}
-#facebook A:visited {text-decoration: none; color: #FFFFFF;}
-#facebook A:hover {text-decoration: none; color: white;}
+/*#codepen a:link {text-decoration: none; color: white}*/
+/*#github a:link {text-decoration: none; color: white}*/
+/*#linkedin a:link {text-decoration: none; color: white}*/
+/**#codepen A:link {text-decoration: none; color: #2952c2;}
+#codepen A:visited {text-decoration: none; color: #FFFFFF;}
+#codepen A:hover {text-decoration: none; color: white;}
 /** template for contact animation**/
 .hvr-sweep-to-bottom {
   display: inline-block;
@@ -254,15 +418,15 @@ ul {
   transition-timing-function: ease-out;
 }
 
-#facebook:hover, #facebook:focus, #facebook:active {
+#codepen:hover, #codepen:focus, #codepen:active a:link{
   color: white;}
-#facebook:hover:before, #facebook:focus:before, #facebook:active:before {
+#codepen:hover:before, #codepen:focus:before, #codepen:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);}
   
-  #googleplus:hover, #facebook:focus, #facebook:active {
+  #github:hover, #codepen:focus, #codepen:active a:link{
   color: white;}
-#googleplus:hover:before, #facebook:focus:before, #googleplus:active:before {
+#github:hover:before, #codepen:focus:before, #github:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 
