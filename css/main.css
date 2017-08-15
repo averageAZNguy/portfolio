@@ -63,7 +63,8 @@
 
 .img-div {
     position: absolute;
-    top: 50%;
+    top: 25%;
+    /*left:30%;*/
     font-size: 50px;
     width: 400px;
     color: #af8c1c;
@@ -326,6 +327,24 @@ hr {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+#freecodecamp {
+  background-color:#a9aaa9;
+  text-color:white;
+  padding: 6px;
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
 
 #codepen:before {
   content: "";
@@ -357,6 +376,27 @@ hr {
   right: 0;
   bottom: 0;
   background: #cc5441;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  color:white;
+}
+#freecodecamp:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #136d13;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -422,14 +462,22 @@ a:link {color: white;}      /* unvisited link */
   color: white;}
 #codepen:hover:before, #codepen:focus:before, #codepen:active:before {
   -webkit-transform: scaleY(1);
-  transform: scaleY(1);}
+  transform: scaleY(1);
+}
+
   
   #github:hover, #codepen:focus, #codepen:active a:link{
   color: white;}
 #github:hover:before, #codepen:focus:before, #github:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
-
+}
+#freecodecamp:hover, #freecodecamp:focus, #freecodecamp:active a:link{
+  color: white;}
+#freecodecamp:hover:before, #freecodecamp:focus:before, #freecodecamp:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
 .hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
   color: white;
 }
