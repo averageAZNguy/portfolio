@@ -6,6 +6,10 @@
   height:100%;
   position: absolute;
 }
+.content-wrap {
+  margin-left:0;
+  margin-right:0;
+}
 .container {
   /*margin: 0;*/
  /* padding: 0;*/
@@ -144,7 +148,7 @@
 .img-profile {
   height: 100%;
   width: 100%;
-  margin-left: 0px;
+  margin: 0 auto;
   /*border: 1px solid black;*/
   /*background-image: url(https://s3.us-east-2.amazonaws.com/quangthuyhoang.com/images/reza.jpg);*/
 }
@@ -239,6 +243,11 @@ hr {
 }
 
 /**Contact Info animation */
+.flexer {
+  display:flex;
+  flex-wrap: wrap;
+}
+
 #linkedin {
   background-color:#dddddd;
   padding: 6px;
